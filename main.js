@@ -30,3 +30,8 @@ function exibirnumero2()
 {
     document.getElementById( "numero2" ).innerHTML = "" ;
 }
+
+function exibesoma()
+{
+    document.getElementById( "btn-soma" ).innerHTML = "" ;
+}
