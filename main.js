@@ -4,11 +4,11 @@ document.getElementById( "botao" ).addEventListener( "click" , exibenome );
 
 document.getElementById( "btn-soma" ).addEventListener( "click" , exibesoma );
 
-document.getElementById( "dividir" ).addEventListener( "click" , exibirdivisao );
+document.getElementById( "dividir" ).addEventListener( "click" , exibedividir );
 
-document.getElementById( "multiplicar" ).addEventListener( "click" , exibemultiplicacao );
+document.getElementById( "multiplicar" ).addEventListener( "click" , exibemultiplicar );
 
-document.getElementById( "subtraia" ).addEventListener( "click" , exibesubtracao );
+document.getElementById( "subtraia" ).addEventListener( "click" , exibesubtraia );
 
 function showcolor()
 {
@@ -30,7 +30,7 @@ function exibesoma()
 
 }
 
-function exibirdivisao()
+function exibirdividir()
 {
     let numero3 = document.getElementById( "numero3" ).value;
     let numero4 = document.getElementById( "numero4" ).value;
@@ -38,7 +38,7 @@ function exibirdivisao()
 
 }
 
-function exibemultiplicacao()
+function exibemultiplicar()
 {
     let numero5 = document.getElementById( "numero5" ).value;
     let numero6 = document.getElementById( "numero6" ).value;
@@ -46,7 +46,7 @@ function exibemultiplicacao()
 
 }
 
-function exibesubtracao()
+function exibesubtraia()
 {
     let numero7 = document.getElementById( "numero7" ).value;
     let numero8 = document.getElementById( "numero8" ).value;
