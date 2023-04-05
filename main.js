@@ -4,7 +4,11 @@ document.getElementById( "botao" ).addEventListener( "click" , exibenome );
 
 document.getElementById( "btn-soma" ).addEventListener( "click" , exibesoma );
 
-document.getElementById( "somar" ).addEventListener( "click" , exibirdivisao );
+document.getElementById( "dividir" ).addEventListener( "click" , exibirdivisao );
+
+document.getElementById( "multiplicar" ).addEventListener( "click" , exibemultiplicacao );
+
+document.getElementById( "subtraia" ).addEventListener( "click" , exibesubtracao );
 
 function showcolor()
 {
@@ -31,5 +35,21 @@ function exibirdivisao()
     let numero3 = document.getElementById( "numero3" ).value;
     let numero4 = document.getElementById( "numero4" ).value;
     document.getElementById( "resultado2" ).innerHTML = parseFloat(numero3) + parseFloat(numero4);
+
+}
+
+function exibemultiplicacao()
+{
+    let numero5 = document.getElementById( "numero5" ).value;
+    let numero6 = document.getElementById( "numero6" ).value;
+    document.getElementById( "resultado3" ).innerHTML = parseFloat(numero5) + parseFloat(numero6);
+
+}
+
+function exibesubtracao()
+{
+    let numero7 = document.getElementById( "numero7" ).value;
+    let numero8 = document.getElementById( "numero8" ).value;
+    document.getElementById( "resultado4" ).innerHTML = parseFloat(numero7) + parseFloat(numero8);
 
 }
