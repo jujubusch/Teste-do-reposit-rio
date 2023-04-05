@@ -20,6 +20,6 @@ function exibesoma()
 {
     let numero1 = document.getElementById( "numero1" ).value;
     let numero2 = document.getElementById( "numero2" ).value;
-    document.getElementById( "resultado1" ).innerHTML = parseFloat(numero1) + parseFloat(numero2);
+    document.getElementById( "resultado1" ).innerHTML = numero1 + parseFloat(numero2);
 
 }
