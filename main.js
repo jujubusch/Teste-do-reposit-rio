@@ -33,5 +33,5 @@ function exibirnumero2()
 
 function exibesoma()
 {
-    document.getElementById( "btn-soma" ).innerHTML = "" ;
+    let = document.getElementById( "btn-soma" ).value;
 }
