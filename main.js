@@ -2,10 +2,6 @@ document.addEventListener( "click" , showcolor );
 
 document.getElementById( "botao" ).addEventListener( "click" , exibenome );
 
-document.getElementById( "numero1" ).addEventListener( "click" , exibenumero );
-
-document.getElementById( "numero2" ).addEventListener( "click" , exibirnumero2 );
-
 document.getElementById( "btn-soma" ).addEventListener( "click" , exibesoma );
 
 function showcolor()
@@ -20,18 +16,10 @@ function exibenome()
     document.getElementById( "nome" ).value = "";
 }
 
-function exibenumero()
-{
-    document.getElementById( "numero1" ).innerHTML = ""; 
-
-}
-
-function exibirnumero2()
-{
-    document.getElementById( "numero2" ).innerHTML = "" ;
-}
-
 function exibesoma()
 {
-    let = document.getElementById( "btn-soma" ).value;
+    let numero1 = document.getElementById( "numero1" ).value;
+    let numero2 = document.getElementById( "numero2" ).value;
+    document.getElementById( "resultado1" ).innerHTML = parseFloat(numero1) + parseFloat(numero2);
+
 }
