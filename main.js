@@ -30,7 +30,7 @@ function exibesoma()
 
 }
 
-function exibirdividir()
+function exibedividir()
 {
     let numero3 = document.getElementById( "numero3" ).value;
     let numero4 = document.getElementById( "numero4" ).value;
